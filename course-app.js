@@ -30,4 +30,4 @@ btnAdd.addEventListener('click', () => {
     item.textContent = enteredCourse + ': '+ enteredRating;
     courseList.appendChild(item);
     clear();
-})
+});
