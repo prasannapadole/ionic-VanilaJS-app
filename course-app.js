@@ -28,6 +28,6 @@ btnAdd.addEventListener('click', () => {
     }
     const item = document.createElement('ion-item');
     item.textContent = enteredCourse + ': '+ enteredRating;
-    courseList.appendChild(item);
+    courseList.appendChild(document.createElement('strong')).appendChild(item);
     clear();
 });
