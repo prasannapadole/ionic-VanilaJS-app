@@ -15,7 +15,7 @@ btnAdd.addEventListener('click', () => {
         enteredCourse.trim().length <= 0 ||
         enteredRating.trim().length <= 0 ||
         enteredRating < 1
-    )
+    ) 
     {
         alertCtrl.create({
             message: 'Please enter a valid input.',
@@ -30,4 +30,4 @@ btnAdd.addEventListener('click', () => {
     item.textContent = enteredCourse + ': '+ enteredRating;
     courseList.appendChild(item);
     clear();
-});
+})
